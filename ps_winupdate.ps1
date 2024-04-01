@@ -25,7 +25,7 @@ If ($Result.Updates.Count -EQ 0) {
 	Write-Host "`t There are no applicable updates for this computer."
 }
 Else {
-	$ReportFile = "C:\ps_script_lib\logs\" + $Env:ComputerName + "_Report.txt"
+	$ReportFile = "C:\temp\logs\" + $Env:ComputerName + "_Report.txt"
 	If (Test-Path $ReportFile) {
 		Remove-Item $ReportFile
 	}
