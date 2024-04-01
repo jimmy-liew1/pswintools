@@ -20,11 +20,15 @@ This repository includes a variety of tools, each with its unique capabilities. 
 
 To get started with pswintools, simply import the PSWinTools module into your PowerShell session:
 
+```powershell
 Import-Module -Name PSWinTools
+```
 
 Once the module is imported, you can use the Get-Command cmdlet to see a list of all the available tools:
 
+```powershell
 Get-Command -Module PSWinTools
+```
 
 ## Usage
 
